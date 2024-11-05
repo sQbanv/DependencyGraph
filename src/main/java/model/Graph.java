@@ -28,6 +28,18 @@ public class Graph {
         }
     }
 
+    public Graph getInvertedGraph() {
+        Graph invertedGraph = new Graph();
+
+        for (int source : adjacencyList.keySet()) {
+            for (int target : adjacencyList.get(source)) {
+                invertedGraph.addEdge(target, source);
+            }
+        }
+
+        return invertedGraph;
+    }
+
     public Map<Integer, List<Integer>> getAdjacencyList() {
         return adjacencyList;
     }
