@@ -1,10 +1,10 @@
 package app;
 
 import model.Data;
-import reader.TxtReader;
+import model.Graph;
+import service.DependencyGraph;
+import util.TxtReader;
 import service.Dependency;
-
-import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
@@ -17,5 +17,10 @@ public class Main {
         Dependency dependency = new Dependency(data.getTransactions());
         System.out.println(dependency.getDependencyList());
         System.out.println(dependency.getIndependencyList());
+
+        DependencyGraph dependencyGraph = new DependencyGraph();
+
+        Graph graph = dependencyGraph.createDependencyGraph(data.getWord(), dependency.getDependencyList());
+        System.out.println(graph.toDot(data.getWord()));
     }
 }
