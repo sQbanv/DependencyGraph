@@ -19,7 +19,7 @@ public class GraphDotToImage {
         try {
             Graphviz.fromString(dotGraph).render(Format.PNG).toFile(new File(filePath));
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            System.out.println("Graphviz is not available or an error occurred. Skipping PNG generation " + e);
         }
     }
 }

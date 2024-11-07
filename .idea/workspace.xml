@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf16fa85-f2a3-47d6-adab-629cad7b57f2" name="Changes" comment="ResultsWriter + now app runs on every txt file in input directory">
+    <list default="true" id="cf16fa85-f2a3-47d6-adab-629cad7b57f2" name="Changes" comment="Add gradle application">
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/TxtFileProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/GraphDotToImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/GraphDotToImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/ResultsWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ResultsWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/inputFiles/case1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/inputFiles/case2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/inputFiles/test1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/inputFiles/test2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/inputFiles/test3.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +90,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dariusz\Documents\DependencyGraph\src\main\resources\inputFiles" />
       <recent name="C:\Users\Dariusz\Desktop\DependencyGraph\src\main\resources\inputFiles" />
     </key>
   </component>
@@ -118,7 +127,7 @@
       <workItem from="1730790954819" duration="4013000" />
       <workItem from="1730824052710" duration="5241000" />
       <workItem from="1730829467516" duration="2365000" />
-      <workItem from="1730991314512" duration="223000" />
+      <workItem from="1730991314512" duration="3289000" />
     </task>
     <task id="LOCAL-00001" summary="Initial structure + model + txtReader">
       <option name="closed" value="true" />
@@ -160,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730831170009</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add gradle application">
+      <option name="closed" value="true" />
+      <created>1730991571115</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1730991571115</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,7 +189,8 @@
     <MESSAGE value="Removing additional edges in graph using implemented DFS + graph to Dot format" />
     <MESSAGE value="FNF" />
     <MESSAGE value="ResultsWriter + now app runs on every txt file in input directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="ResultsWriter + now app runs on every txt file in input directory" />
+    <MESSAGE value="Add gradle application" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add gradle application" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
