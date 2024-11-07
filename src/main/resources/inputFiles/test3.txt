@@ -1,0 +1,8 @@
+(a) x := xv
+(b) y := yv
+(c) z := zx
+(d) v := vy
+(e) z := zv
+(f) v := xy
+A = {a,b,c,d,e,f}
+w = aefadc
