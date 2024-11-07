@@ -25,3 +25,7 @@ test {
 application {
     mainClassName = 'app.Main'
 }
+
+run {
+    jvmArgs = ['-Dpolyglot.engine.WarnInterpreterOnly=false']
+}

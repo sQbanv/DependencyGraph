@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf16fa85-f2a3-47d6-adab-629cad7b57f2" name="Changes" comment="gitignore changes">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="cf16fa85-f2a3-47d6-adab-629cad7b57f2" name="Changes" comment="gitkeep to inputFiles">
+      <change afterPath="$PROJECT_DIR$/img/graph.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/graph2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +71,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "b1",
+    "last_opened_file_path": "C:/Users/Dariusz/Documents/DependencyGraph/img",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,12 +85,17 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dariusz\Documents\DependencyGraph\img" />
+      <recent name="C:\Users\Dariusz\Documents\DependencyGraph" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dariusz\Documents\DependencyGraph\img" />
       <recent name="C:\Users\Dariusz\Documents\DependencyGraph\src\main\resources\inputFiles" />
       <recent name="C:\Users\Dariusz\Desktop\DependencyGraph\src\main\resources\inputFiles" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.DependencyGraph [run]">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.Main" />
       <module name="DependencyGraph.main" />
@@ -99,8 +109,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DependencyGraph [run]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="run" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DependencyGraph [run]" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -118,7 +151,7 @@
       <workItem from="1730790954819" duration="4013000" />
       <workItem from="1730824052710" duration="5241000" />
       <workItem from="1730829467516" duration="2365000" />
-      <workItem from="1730991314512" duration="4641000" />
+      <workItem from="1730991314512" duration="7225000" />
     </task>
     <task id="LOCAL-00001" summary="Initial structure + model + txtReader">
       <option name="closed" value="true" />
@@ -200,7 +233,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730995886974</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="gitignore changes">
+      <option name="closed" value="true" />
+      <created>1730995976922</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1730995976922</updated>
+    </task>
+    <task id="LOCAL-00012" summary="gitkeep to inputFiles">
+      <option name="closed" value="true" />
+      <created>1730996093270</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1730996093270</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +264,8 @@
     <MESSAGE value="Add gradle application" />
     <MESSAGE value="Final changes: Moved processing files from Main to new class TxtFileProcessor" />
     <MESSAGE value="gitignore changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore changes" />
+    <MESSAGE value="gitkeep to inputFiles" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitkeep to inputFiles" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
