@@ -2,13 +2,13 @@ package util;
 
 import app.AppConfig;
 
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.List;
 
 public class ResultsWriter {
-    private final String fileName;
     private final String directoryPath;
     private final TxtWriter txtWriter;
     private final DotWriter dotWriter;
@@ -23,7 +23,6 @@ public class ResultsWriter {
         this.independencyList = independencyList;
         this.fnf = fnf;
         this.dotGraph = dotGraph;
-        this.fileName = fileName;
         this.directoryPath = AppConfig.OUTPUT_FILE_PATH + "/" + fileName;
         this.txtWriter = new TxtWriter(directoryPath);
         this.dotWriter = new DotWriter(directoryPath);
@@ -32,7 +31,13 @@ public class ResultsWriter {
 
     public void saveResults() {
         try {
-            Files.createDirectories(Path.of(directoryPath));
+            Path directory = Path.of(directoryPath);
+            if(Files.exists(directory)) {
+                Files.walk(directory)
+                        .map(Path::toFile)
+                        .forEach(File::delete);
+            }
+            Files.createDirectories(directory);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
