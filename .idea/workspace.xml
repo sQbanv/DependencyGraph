@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf16fa85-f2a3-47d6-adab-629cad7b57f2" name="Changes" comment="Final changes: Moved processing files from Main to new class TxtFileProcessor">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="cf16fa85-f2a3-47d6-adab-629cad7b57f2" name="Changes" comment="Final changes: Moved processing files from Main to new class TxtFileProcessor" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,7 +116,7 @@
       <workItem from="1730790954819" duration="4013000" />
       <workItem from="1730824052710" duration="5241000" />
       <workItem from="1730829467516" duration="2365000" />
-      <workItem from="1730991314512" duration="3713000" />
+      <workItem from="1730991314512" duration="3774000" />
     </task>
     <task id="LOCAL-00001" summary="Initial structure + model + txtReader">
       <option name="closed" value="true" />
@@ -177,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730994766370</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Final changes: Moved processing files from Main to new class TxtFileProcessor">
+      <option name="closed" value="true" />
+      <created>1730995054270</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730995054270</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
