@@ -41,5 +41,5 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-src/main/resources/inputFiles/
+src/main/resources/inputFiles/*
 src/main/resources/outputResults/

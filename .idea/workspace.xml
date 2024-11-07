@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf16fa85-f2a3-47d6-adab-629cad7b57f2" name="Changes" comment="Add gradle application">
-      <change afterPath="$PROJECT_DIR$/src/main/java/util/TxtFileProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/GraphDotToImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/GraphDotToImage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/util/ResultsWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/ResultsWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/inputFiles/case1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/inputFiles/case2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/inputFiles/test1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/inputFiles/test2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/inputFiles/test3.txt" beforeDir="false" />
-    </list>
+    <list default="true" id="cf16fa85-f2a3-47d6-adab-629cad7b57f2" name="Changes" comment="Final changes: Moved processing files from Main to new class TxtFileProcessor" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +116,7 @@
       <workItem from="1730790954819" duration="4013000" />
       <workItem from="1730824052710" duration="5241000" />
       <workItem from="1730829467516" duration="2365000" />
-      <workItem from="1730991314512" duration="3289000" />
+      <workItem from="1730991314512" duration="3774000" />
     </task>
     <task id="LOCAL-00001" summary="Initial structure + model + txtReader">
       <option name="closed" value="true" />
@@ -177,7 +166,23 @@
       <option name="project" value="LOCAL" />
       <updated>1730991571115</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Final changes: Moved processing files from Main to new class TxtFileProcessor">
+      <option name="closed" value="true" />
+      <created>1730994766370</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1730994766370</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Final changes: Moved processing files from Main to new class TxtFileProcessor">
+      <option name="closed" value="true" />
+      <created>1730995054270</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1730995054270</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +195,8 @@
     <MESSAGE value="FNF" />
     <MESSAGE value="ResultsWriter + now app runs on every txt file in input directory" />
     <MESSAGE value="Add gradle application" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add gradle application" />
+    <MESSAGE value="Final changes: Moved processing files from Main to new class TxtFileProcessor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final changes: Moved processing files from Main to new class TxtFileProcessor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
