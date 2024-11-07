@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf16fa85-f2a3-47d6-adab-629cad7b57f2" name="Changes" comment="gitkeep to inputFiles">
-      <change afterPath="$PROJECT_DIR$/img/graph.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/graph2.png" afterDir="false" />
+    <list default="true" id="cf16fa85-f2a3-47d6-adab-629cad7b57f2" name="Changes" comment="Modified README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,7 +148,7 @@
       <workItem from="1730790954819" duration="4013000" />
       <workItem from="1730824052710" duration="5241000" />
       <workItem from="1730829467516" duration="2365000" />
-      <workItem from="1730991314512" duration="7225000" />
+      <workItem from="1730991314512" duration="11882000" />
     </task>
     <task id="LOCAL-00001" summary="Initial structure + model + txtReader">
       <option name="closed" value="true" />
@@ -249,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730996093270</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Modified README.md">
+      <option name="closed" value="true" />
+      <created>1730998772660</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1730998772660</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,7 +270,8 @@
     <MESSAGE value="Final changes: Moved processing files from Main to new class TxtFileProcessor" />
     <MESSAGE value="gitignore changes" />
     <MESSAGE value="gitkeep to inputFiles" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitkeep to inputFiles" />
+    <MESSAGE value="Modified README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modified README.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
